@@ -4,7 +4,7 @@
       :to="switchLocalePath('he')"
       type="button"
       :class="[$i18n.locale == 'he' ? 'bg-gray-300' : 'bg-white']"
-      class="relative inline-flex items-center px-2 py-0 rounded-l-md border border-gray-300 text-sm leading-5 font-bold text-gray-800 hover:text-gray-500 focus:z-10 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue transition ease-in-out duration-150"
+      class="relative inline-flex items-center px-2 py-0 rounded-s-md border border-gray-300 text-sm leading-5 font-bold text-gray-800 hover:text-gray-500 focus:z-10 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue transition ease-in-out duration-150"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -20,7 +20,7 @@
           />
         </g>
       </svg>
-      <span class="md:pl-2">
+      <span class="md:ps-2">
         HE
       </span>
     </nuxt-link>
@@ -28,7 +28,7 @@
       :to="switchLocalePath('en')"
       type="button"
       :class="[$i18n.locale == 'en' ? 'bg-gray-300' : 'bg-white']"
-      class="-ml-px relative inline-flex items-center px-2 py-1 rounded-r-md border border-gray-300 text-sm leading-5 font-bold text-gray-800 hover:text-gray-500 focus:z-10 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue transition ease-in-out duration-150"
+      class="-ms-px relative inline-flex items-center px-2 py-1 rounded-e-md border border-gray-300 text-sm leading-5 font-bold text-gray-800 hover:text-gray-500 focus:z-10 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue transition ease-in-out duration-150"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@
           />
         </g>
       </svg>
-      <span class="md:pl-2">
+      <span class="md:ps-2">
         EN
       </span>
     </nuxt-link>
