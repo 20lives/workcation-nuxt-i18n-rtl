@@ -1,4 +1,3 @@
-
 export default {
   mode: 'universal',
   /*
@@ -65,5 +64,8 @@ export default {
     extractCSS: true,
     extend (config, ctx) {
     }
-  }
+  },
+  generate: {
+    fallback: true
+  },
 }
