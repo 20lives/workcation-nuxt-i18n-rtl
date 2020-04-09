@@ -40,7 +40,19 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    'nuxt-i18n'
   ],
+  i18n: {
+    locales: [
+      { code: 'he', name: 'עברית', dir: 'rtl' },
+      { code: 'en', name: 'English', dir: 'ltr' },
+    ],
+    vueI18nLoader: true,
+    defualtLocale: 'he',
+    vueI18n: {
+      fallbackLocale: 'he',
+    },
+  },
   /*
   ** Build configuration
   */
