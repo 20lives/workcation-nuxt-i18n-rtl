@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div :dir="$dir()">
     <nuxt />
   </div>
 </template>
