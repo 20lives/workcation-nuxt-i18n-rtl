@@ -18,6 +18,6 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^1.0.0",
     "@tailwindcss/custom-forms": "^0.2.1",
-    "tailwind-dir": "^0.0.13"
+    "tailwindcss-rtl": "^0.2.0"
   }
 }

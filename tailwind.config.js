@@ -34,6 +34,6 @@ module.exports = {
   variants: {},
   plugins: [
     require('@tailwindcss/custom-forms'),
-    require('tailwind-dir'),
+    require('tailwindcss-rtl'),
   ]
 }
