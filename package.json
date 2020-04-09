@@ -1,0 +1,19 @@
+{
+  "name": "workcation-nuxt-i18n-rtl",
+  "version": "1.0.0",
+  "description": "My polished Nuxt.js project",
+  "author": "20lives",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0"
+  }
+}
