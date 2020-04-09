@@ -41,7 +41,8 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    'nuxt-i18n'
+    'nuxt-i18n',
+    'nuxt-purgecss',
   ],
   i18n: {
     locales: [
@@ -61,6 +62,7 @@ export default {
     /*
     ** You can extend webpack config here
     */
+    extractCSS: true,
     extend (config, ctx) {
     }
   }
