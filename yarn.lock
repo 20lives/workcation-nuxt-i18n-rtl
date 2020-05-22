@@ -6726,10 +6726,10 @@ svgo@^1.0.0:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
-tailwind-dir@^0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/tailwind-dir/-/tailwind-dir-0.0.6.tgz#f6b427f196234f270a2955aadda4057cd6ca4945"
-  integrity sha512-Nu3gv2Q0Jzjs3pF82GH8IKIvbbUM8afIIpCCQWF1V9k28b2bC8cgXMEboUAaGbslZ70ewHpS1mh95zK3+qROWA==
+tailwindcss-rtl@^0.2.0:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/tailwindcss-rtl/-/tailwindcss-rtl-0.2.1.tgz#b1633b937d4ee25224352ce12d578d49f2642c68"
+  integrity sha512-p8PwM+4wBDza+HckLWWhy6pQtjy1mAnlELI8ftImlW4vehfn+uWQ9QiH5TVPWcLe/IuddA4kQZHQfrGQ8wpTRA==
   dependencies:
     lodash "^4.17.15"
     tailwindcss "^1.2.0"
