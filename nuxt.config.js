@@ -49,7 +49,7 @@ export default {
       { code: 'en', name: 'English', dir: 'ltr' },
     ],
     vueI18nLoader: true,
-    defualtLocale: 'he',
+    defaultLocale: 'he',
     vueI18n: {
       fallbackLocale: 'he',
     },
