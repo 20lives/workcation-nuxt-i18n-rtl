@@ -20,6 +20,7 @@
         </div>
         <input class="block w-full border border-transparent bg-gray-200 focus:outline-none focus:bg-white focus:border-gray-300 text-gray-900 rounded-lg pl-10 pr-4 py-2" placeholder="Search by keywords">
       </div>
+      <LanguageSwitcher />
       <div class="sm:flex sm:items-center">
         <div class="px-2 pt-2 pb-5 border-b border-gray-800 sm:flex sm:border-b-0 sm:py-0 sm:px-0">
           <a href="#" class="block px-3 py-1 rounded font-semibold text-white hover:bg-gray-800 sm:text-sm sm:px-2 xl:text-gray-900 xl:hover:bg-gray-200">List your property</a>
@@ -60,9 +61,10 @@
 
 <script>
 import Dropdown from '@/components/Dropdown'
+import LanguageSwitcher from '@/components/LanguageSwitcher'
 
 export default {
-  components: { Dropdown },
+  components: { Dropdown, LanguageSwitcher },
   props: [],
   data() {
     return {
