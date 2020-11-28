@@ -7342,6 +7342,11 @@ svgo@^1.0.0:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
+tailwindcss-rtl@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/tailwindcss-rtl/-/tailwindcss-rtl-0.7.0.tgz#c7f72479906bdd48fc74c274940906ed31b4f545"
+  integrity sha512-0OWfaFUYGAOJshzcCV/QrghNS8FtVMY/ZvJrkx5bYzhrIGan4mHdQzYtZLIjVOghz1nAcDufa65YaGhZC23zgg==
+
 tailwindcss@^1.9.5:
   version "1.9.6"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.9.6.tgz#0c5089911d24e1e98e592a31bfdb3d8f34ecf1a0"

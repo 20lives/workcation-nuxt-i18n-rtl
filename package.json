@@ -12,7 +12,8 @@
     "@tailwindcss/custom-forms": "^0.2.1",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6",
-    "nuxt-i18n": "^6.15.4"
+    "nuxt-i18n": "^6.15.4",
+    "tailwindcss-rtl": "^0.7.0"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^3.1.0"
